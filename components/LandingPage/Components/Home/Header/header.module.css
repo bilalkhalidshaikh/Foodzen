@@ -1,0 +1,119 @@
+.wrapper{
+    /* position: relative; */
+
+}
+
+.container{
+    /* background: url('../../../../../assets//LandingPage//Background.svg') no-repeat center center/cover; */
+    min-height: 109vh;
+    position: relative;
+    z-index: 1;
+    max-width: 1450px;
+    margin:0 auto
+}
+.wrapper::before{
+    content:'';
+    position: absolute;
+    background: url('https://falcon-foodzen.s3.us-west-1.amazonaws.com/Background.png') no-repeat center center/cover;
+
+    left: 0;
+    right:0;
+    
+    
+    width: 100%;
+    height: 100%;
+}
+
+.rectangleFood{
+    position: absolute;
+    z-index: 2;
+  
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 4.5%;
+    max-width: 1450px;
+
+}
+.middleSection{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    min-height:96vh ;
+    width: 80%;
+    margin: auto;
+}
+.middleSection h1{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 98px;
+    /* or 136% */
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: #000000;
+    padding-right:30% ;
+    z-index: 5;
+}
+.middleSection button{
+    border-radius: 6px;
+    width: 183px;
+    height: 48px;
+    font-size: 16px;
+}
+.mobrectangleFood{
+    display: none;
+}
+.mobText{
+    display: none;
+}
+.imgFood{
+    width:100% !important;
+    height: 100% !important;
+}
+
+@media (max-width:768px){
+    .container{
+        background: url('../../../../../assets//LandingPage/MobileResponsive//mobBackground.svg') no-repeat center center/cover;
+        min-height: auto;
+        position: relative;
+        z-index: 1;
+    }
+    .middleSection h1{
+        font-weight: 800;
+        font-size: 36px;
+        line-height: 40px;
+        padding-right:0;
+        z-index: 5;
+    }
+    .mobrectangleFood{
+        display: block;
+        position: relative;
+ 
+    }
+    .rectangleFood{
+        display: none;
+    }
+    .middleSection{
+       
+        align-items: center;
+   
+        min-height:96vh ;
+        width: 100%;
+        gap: 0px;
+    }
+    .desktopText{
+        display: none;
+    }
+    .mobText{
+        display: block;
+        padding: 0px 20px 0px 20px !important;
+        font-weight: 800 !important;
+        font-size: 32px !important;
+        line-height: 40px !important;
+        margin-top:0px;
+    }
+}

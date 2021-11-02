@@ -1,0 +1,18 @@
+.container{
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.flexColumn{
+    font-family: 'Inter' sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+.flexColumn > span:nth-child(1){
+    font-size: 18px;
+    font-weight: 800;
+}
+.flexColumn > span:nth-child(2){
+    font-size: 12px;
+}

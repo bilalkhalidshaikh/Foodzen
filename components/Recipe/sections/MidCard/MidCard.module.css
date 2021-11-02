@@ -1,0 +1,304 @@
+.leftCardMain {
+  /* width: 560px; */
+  height: 605px;
+  text-align: start;
+}
+.imageContiner {
+  background: linear-gradient(144.65deg, #e8fff2 2.78%, #ffece9 102.19%);
+  border: 1px solid #e9b699;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 25px rgba(11, 140, 37, 0.1);
+  border-radius: 18px;
+  height: 100%;
+  width: 95%;
+}
+.breakfastAbsolute {
+  position: relative;
+  opacity: 0.5;
+}
+.breakfastAbsoluteImg {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  z-index: 1;
+  opacity: 0.5;
+}
+.curveAbsolute {
+  position: absolute;
+  top: 235px;
+  right: 0;
+  z-index: 1;
+  width: 425px;
+}
+.leftContiner {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 35px;
+}
+
+/* imagebox css */
+/* .imageBoxFlex {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+} */
+
+.imageBoxFlexCol {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: -10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  /* flex: 0 0 0%; */
+}
+.imageBoxMain {
+  margin-bottom: 40px;
+}
+.imageBoxHeadingFlex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  vertical-align: middle;
+  /* flex-wrap: wrap; */
+}
+.imageBoxHeadingFlex h2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  /* line-height: 0px; */
+  display: flex;
+  text-align: center;
+  align-items: center;
+  vertical-align: middle;
+  color: #222222;
+}
+.imageBoxHeadingFlex h2 span {
+  margin-right: 5px;
+}
+.imageBoxHeadingMainFlex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  vertical-align: middle;
+}
+.cardHeading {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 0px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  vertical-align: middle;
+  color: #222222;
+  margin-bottom: 5px;
+}
+.cardHeading span {
+  margin-left: 5px;
+  margin-right: 5px;
+  
+}
+
+.rectangleBox {
+  /* flex: 1; */
+  width: 105px;
+  height: 55px;
+  background: #ffffff;
+  box-shadow: 0px 0px 25px rgba(117, 128, 0, 0.15);
+  border-radius: 20px;
+  box-sizing: border-box;
+  backdrop-filter: blur(50px);
+  display: flex;
+
+  align-items: center;
+  vertical-align: middle;
+  margin-right: 0px;
+}
+.imageBoxImgContainer {
+  position: absolute;
+  width: 100%;
+  left: 0%;
+  top: 52%;
+  transform: translate(-50%, -50%);
+  width: 40px;
+}
+.imageBoxImg {
+  border-radius: 50%;
+}
+.imageBoxText {
+  text-align: start !important;
+  vertical-align: middle;
+  width: 75%;
+  margin-left: 25px;
+  margin-right: auto;
+  margin-top: 5px;
+}
+.imageBoxText h2 {
+  font-size: 13px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  /* font-size: 18px; */
+  color: #222222;
+  /* margin-top: 6px; */
+}
+.viewModalParent {
+  z-index: 999 !important;
+}
+.viewModalParent h2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  /* line-height: 0px; */
+  display: flex;
+  text-align: center;
+  align-items: center;
+  vertical-align: middle;
+  color: #222222;
+}
+.viewModalParent h2 span {
+  margin-left: 5px;
+}
+@media only screen and (max-width: 1500px) {
+  .rectangleBox {
+    /* flex: 1; */
+    width: 90px;
+    height: 55px;
+  }
+}
+@media only screen and (max-width: 1300px) {
+  .imageContiner {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .leftCardMain {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .rectangleBox {
+    width: 100%;
+    height: 65px;
+  }
+  .imageBoxFlexCol {
+    flex: 1 1 100%;
+  }
+  .imageBoxText {
+    text-align: center !important;
+  }
+  .breakfastAbsoluteImg {
+    right: 10px;
+    top: 10px;
+  }
+  .curveAbsolute {
+    top: 215px;
+    right: 0;
+    width: 450px;
+  }
+}
+@media only screen and (max-width: 580px) {
+  .leftCardMain {
+    /* width: 587px; */
+    height: 1000px;
+    text-align: start;
+  }
+  .imageBoxFlex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    text-align: center;
+    vertical-align: middle;
+  }
+  .imageBoxFlexCol {
+    margin-top: 10px;
+  }
+
+  .curveAbsolute {
+    top: 650px;
+    right: 0;
+    width: 400px;
+  }
+}
+@media only screen and (max-width: 460px) {
+  .curveAbsolute {
+    top: 720px;
+    right: 1px;
+    width: 320px;
+  }
+}
+.cusineHeadFlex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  vertical-align: middle;
+  flex-wrap: wrap;
+  padding-bottom: 15px;
+}
+.cusineHeadFlex h2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 0px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  vertical-align: middle;
+  color: #222222;
+}
+.cusineHeadFlex h2 span {
+  margin-left: 5px;
+}
+
+.vmMain {
+  z-index: 9999 !important;
+}
+.viewAll {
+  cursor: pointer !important;
+  /* z-index: 999999 !important; */
+}
+.modal {
+  overflow: hidden;
+  z-index: 999999 !important;
+}
+.modalContainer {
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  z-index: 999999
+}
+.imageBoxHeadingFlex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+}
+
+
+.cusineHeadMainFlex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  vertical-align: middle;
+  flex-wrap: wrap;
+  padding-bottom: 15px;
+}
+.cusineHeadMainFlex h2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 0px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  vertical-align: middle;
+  color: #222222;
+}
+.cusineHeadMainFlex h2 span {
+  margin-left: 5px;
+}

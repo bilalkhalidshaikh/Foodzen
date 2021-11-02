@@ -1,0 +1,37 @@
+.nodataButton {
+  /* width: 50%; */
+  height: 40px !important;
+  background: linear-gradient(
+    144.65deg,
+    #e8fff2 2.78%,
+    #ffece9 102.19%
+  ) !important;
+  border: 1px solid #c2c9ee !important;
+  font-weight: 500 !important;
+  font-size: 17px !important;
+  border-radius: 10px !important;
+}
+.nodataButton:hover {
+  color: black !important;
+  border-color: black !important;
+}
+.noFoundText {
+  font-weight: 500;
+  height: 90px;
+}
+.noFoundText span {
+  font-size: 20px;
+  color: #4b150b;
+}
+.nodataButtonDiv {
+  /* width: 50px; */
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.modalText {
+  text-align: center;
+  padding-bottom: 100px;
+}
+.modal {
+}

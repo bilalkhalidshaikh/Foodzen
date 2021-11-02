@@ -1,0 +1,83 @@
+.container{
+    display: flex;
+    align-items: center;
+    padding: 20px 20px 20px 120px;
+    position: absolute;
+    z-index: 3;
+    max-width:1550px;
+    margin: 0 auto;
+}
+.logoDiv{
+    display: flex;
+    align-items: center;
+}
+.logoImg{
+    height: 200px;
+    width: 200px;
+}
+
+.logoDiv span{
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 10px;
+}
+.ulContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top:auto;
+    margin-bottom:auto;
+    list-style: none;
+}
+.ulContainer li {
+    padding: 15px 20px;
+
+}
+.ulContainer li a {
+    color: black;
+    text-align: center;
+    font-size: 16px;
+    padding-bottom: 4px;
+    transition: 0.2s ease-in;
+}
+.ulContainer li a:hover {
+    border-bottom: 1px solid black;
+}
+.searchIconDiv{
+    display: none;
+
+}
+.search{
+    display: block;
+    margin:0 10px 0 auto;
+    width: 100px;
+    box-sizing: border-box;
+    border: 2px solid #0082e6;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 6.5px;
+    transition: width 0.4s ease-in-out;
+    outline: none;
+}
+.search:focus{
+    width: 90%;
+}
+@media(max-width:768px){
+    .container{
+        justify-content: flex-end;
+        padding: 20px;
+        width: 100%;
+    }
+    .searchIconDiv{
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    
+    }
+    .ulContainer{
+        display: none;
+    }
+    .logoDiv{
+        display: none;
+    }
+}

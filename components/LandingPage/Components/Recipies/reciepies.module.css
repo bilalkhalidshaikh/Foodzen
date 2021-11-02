@@ -1,0 +1,56 @@
+.container{
+    width: 80%;
+    margin:auto;
+    margin-top:90px;
+    max-width: 1450px;
+}
+.heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.heading h1{
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 64px;
+font-feature-settings: 'salt' on, 'liga' off;
+margin-top: 60px;
+margin-bottom: 68px;
+margin-bottom: 35px;
+}
+.heading span{
+    font-size: 14px;
+line-height: 14px;
+color: #0295FF;
+letter-spacing: 1.28px;
+text-decoration-line: underline;
+}
+.cardContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+@media(max-width:768px){
+    .container{
+        width: 90%;
+     
+        margin-top:30px;
+    }
+    .heading{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        flex-direction: column;
+    }
+    .heading h1{
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 54px;
+    }
+    .cardContainer{
+        margin-top: 30px;
+        flex-direction: column;
+    }
+}

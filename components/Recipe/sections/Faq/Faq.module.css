@@ -1,0 +1,38 @@
+.faqMain {
+  /* padding-bottom: 20px; */
+}
+.faqHeading {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 38px;
+  line-height: 28px;
+  /* identical to box height, or 58% */
+  text-align: center;
+  color: #000000;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+.panel {
+  background: #ffffff;
+  box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.07);
+  border-radius: 10px !important;
+  margin-bottom: 20px;
+  /* padding-top: 10px;
+  padding-bottom: 10px; */
+}
+.faqQuestion {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 19px;
+  line-height: 28px;
+  /* identical to box height, or 140% */
+
+  color: #222222;
+}
+@media only screen and (max-width: 580px) {
+  .faqQuestion {
+    font-size: 16px;
+  }
+}

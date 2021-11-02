@@ -1,0 +1,264 @@
+.leftCardMain {
+  height: 605px;
+  width: 100%;
+  text-align: start;
+}
+.boxText {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  color: #222222;
+}
+.imageContiner {
+  background: linear-gradient(144.65deg, #e8fff2 2.78%, #ffece9 102.19%);
+  border: 1px solid #c2c9ee;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 25px rgba(11, 140, 37, 0.1);
+  border-radius: 18px;
+  /* background: url(../../../../assets/leftCard2.png);
+  height: 100%;
+  background-size: 500px 100%;
+  background-repeat: no-repeat; */
+  height: 100%;
+  width: 95%;
+}
+.imageContiner h2 {
+  padding-top: 20px;
+}
+.leftContiner {
+  position: relative;
+  z-index: 999 !important;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+}
+.breakfastAbsolute {
+  position: relative;
+  opacity: 0.5;
+}
+.breakfastAbsoluteImg {
+  position: absolute;
+  /* width: 100%; */
+  top: 320px;
+  right: 0;
+  /* left: 40%; */
+  z-index: 2;
+  opacity: 0.5;
+}
+.curveAbsolute {
+  position: absolute;
+  top: 0;
+  right: 1px;
+  z-index: 1;
+  width: 460px;
+}
+/* cuisine css */
+.cuisineFlex {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.cusineBox {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    rgba(255, 152, 17, 0.1) 0%,
+    rgba(109, 165, 68, 0.1) 100%
+  );
+
+  display: block;
+  text-align: center;
+  padding-top: 16px;
+}
+.cuisineFlexCol {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 15px;
+  cursor: pointer;
+}
+.cardHeading span {
+  margin-right: 5px;
+}
+.cardHeading {
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 18px;
+  color: #222222;
+}
+.viewAll {
+  cursor: pointer;
+}
+.cusineHeadFlex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  vertical-align: middle;
+  flex-wrap: wrap;
+}
+.cusineHeadFlex h2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 0px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  vertical-align: middle;
+  color: #222222;
+}
+.cusineHeadFlex h2 span {
+  margin-left: 5px;
+}
+/* Key box css */
+.keyFlex {
+  display: flex;
+  justify-content: flex-start;
+}
+.keyBox {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  background: #fbfef9;
+  box-sizing: border-box;
+  backdrop-filter: blur(50px);
+  display: block !important;
+  text-align: center !important;
+  margin-right: 15px;
+  cursor: pointer;
+}
+.keyBox h2 {
+  font-size: 16px;
+  padding-top: 20px;
+}
+.kbPurple {
+  border: 1.5px solid #c2c9ee;
+}
+.kbBrown {
+  border: 1.5px solid #e9b699;
+}
+.kbNeon {
+  border: 1.5px solid #b7f9ed;
+}
+/* /ingbox css */
+.ingBox {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  /* padding-top: 16px; */
+  /* background: linear-gradient(
+    218.29deg,
+    rgba(69, 111, 0, 0.26) 16.92%,
+    rgba(232, 172, 73, 0.3) 86.56%,
+    rgba(125, 61, 57, 0.61) 86.56%
+  ); */
+  display: block;
+  text-align: center;
+  backdrop-filter: blur(40px);
+  /* Note: backdrop-filter has minimal browser support */
+}
+.imgContainer {
+  position: absolute;
+  width: 100%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+/* category css */
+.catImgContainer {
+}
+.catImg {
+  border-radius: 50%;
+}
+@media only screen and (max-width: 1300px) {
+  .imageContiner {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .breakfastAbsoluteImg {
+    top: 310px;
+    right: 0;
+  }
+  .curveAbsolute {
+    /* top: 0; */
+    right: 1px;
+    width: 460px;
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  .cuisineFlex {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .cuisineFlexCol {
+    justify-content: center;
+    /* align-items: flex-start; */
+  }
+  .imageContiner {
+    /* padding-top: 50px;
+    padding-bottom: 80px; */
+  }
+  .keyFlex {
+    /* display: flex;
+    flex-direction: column;
+    vertical-align: middle; */
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    /* width: 50%;
+    margin-left: auto;
+    margin-right: auto; */
+  }
+  .keyBox {
+    margin-bottom: 10px;
+  }
+  /* .breakfastAbsoluteImg {
+    top: 400px;
+    right: 0;
+  }
+  .curveAbsolute {
+    top: 90px;
+    right: 1px;
+    width: 460px;
+  } */
+}
+@media only screen and (max-width: 480px) {
+  .curveAbsolute {
+    top: 105px;
+    right: 1px;
+    width: 380px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .leftCardMain {
+    /* width: 587px; */
+    height: 1000px;
+    text-align: start;
+  }
+  .curveAbsolute {
+    top: 605px;
+    right: 1px;
+    width: 300px;
+  }
+  .breakfastAbsoluteImg {
+    top: 700px;
+    right: 0;
+  }
+  /* .leftCardMain {
+    height: 100%;
+    width: 100%;
+    text-align: start;
+  } */
+}
+

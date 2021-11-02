@@ -1,0 +1,321 @@
+.rightCardMain {
+  /* width: 587px; */
+  height: 605px;
+  text-align: start;
+}
+.imageContiner {
+  background: linear-gradient(144.65deg, #e8fff2 2.78%, #ffece9 102.19%);
+  border: 1px solid #b7f9ed;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 25px rgba(11, 140, 37, 0.1);
+  border-radius: 18px;
+  height: 100%;
+  width: 95%;
+}
+.breakfastAbsolute {
+  position: relative;
+  opacity: 0.5;
+}
+
+.curveAbsolute {
+  position: absolute;
+  top: 110px;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+  /* left: 50%; */
+  z-index: 1;
+  width: 480px;
+}
+.rightContainer {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 65px;
+}
+
+/* Course Section css */
+.csFlex {
+  display: flex;
+  justify-content: center;
+}
+.csFlex2 {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 15px;
+}
+.csFlex3 {
+  display: flex;
+  align-items: center;
+}
+.csImageBox {
+  width: 120px;
+  height: 120px;
+  background: linear-gradient(
+    218.8deg,
+    rgba(210, 194, 35, 0.4) 16.95%,
+    rgba(232, 172, 73, 0.3) 125.33%
+  );
+  backdrop-filter: blur(40px);
+  /* Note: backdrop-filter has minimal browser support */
+  border-radius: 60px;
+  display: block;
+  text-align: center;
+}
+.csImageContainer {
+  position: absolute;
+  width: 100%;
+  left: 50%;
+  top: 53%;
+  transform: translate(-50%, -50%);
+}
+.circle {
+  height: 10px !important;
+  width: 10px !important;
+  border-radius: 50% !important;
+  background: #f9fcff;
+  border: 1.5px solid #e9b699;
+  box-sizing: border-box;
+  backdrop-filter: blur(50px);
+}
+.csCircleText {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  /* line-height: 28px; */
+  align-items: center;
+  text-transform: uppercase;
+  color: #222222;
+  margin-left: 8px;
+}
+/* Cardcss */
+.cardMain {
+  margin-top: 25px;
+}
+.cardFlex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.cardBox {
+  /* width: 215px; */
+  padding-left: 12px;
+  padding-right: 12px;
+  height: 80px;
+  background: #ffffff;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.07);
+  border-radius: 10px;
+  display: flex;
+  /* text-align: center; */
+  justify-content: center;
+}
+.cardBoxFlex {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+}
+.catImg {
+  border-radius: 50%;
+}
+.cardFlex2 {
+  display: flex;
+}
+.cardTextContainer {
+  line-height: 16px;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+.cardIcon {
+  font-size: 16px;
+}
+.cardTextContainer p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  color: #444444;
+}
+.cardTextContainer h2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  color: #222222;
+  margin-right: 5px;
+}
+
+/* Combination css */
+.combMain {
+  margin-top: 60px;
+}
+.combinationBox {
+  background: linear-gradient(
+    97.99deg,
+    rgba(251, 207, 185, 0.4) 1.44%,
+    rgba(225, 232, 177, 0.3) 98.01%
+  );
+  backdrop-filter: blur(50px);
+  border-radius: 10px;
+  padding-bottom: 40px;
+}
+.resImg {
+  border-radius: 50%;
+}
+.combContainer {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.combAbsolute {
+  position: absolute;
+  bottom: 77%;
+  left: 50%;
+  /* width: 100%; */
+  transform: translateX(-50%);
+}
+.combFlex1 {
+  display: flex;
+  align-items: center;
+  /* position: relative;
+  left: -25%; */
+}
+.comPlus {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  padding-left: 10px;
+  padding-right: 10px;
+  /* line-height: 28px; */
+  color: #000000;
+}
+.combImgBox {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.03),
+    inset 0px 0px 5px rgba(0, 0, 0, 0.02);
+  display: block;
+  text-align: center;
+  backdrop-filter: blur(40px);
+}
+.combImgContainer {
+  position: absolute;
+  width: 100%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.bottomSection {
+  text-align: center;
+  padding-top: 60px;
+}
+.combFlex2 {
+  display: flex;
+  justify-content: center;
+}
+.yesButton {
+  /* width: 145.67px; */
+  height: 40px !important;
+  padding-left: 50px !important;
+  padding-right: 50px !important;
+  text-transform: uppercase !important;
+  font-weight: 500 !important;
+  background: #9adc83 !important;
+  border-radius: 50px !important;
+  color: white !important;
+}
+.noButton {
+  height: 40px !important;
+  padding-left: 50px !important;
+  padding-right: 50px !important;
+  text-transform: uppercase !important;
+  font-weight: 500 !important;
+  background: #dc8383 !important;
+  border-radius: 50px !important;
+  color: white !important;
+  margin-left: 20px;
+}
+@media only screen and (max-width: 1350px) {
+  /* .rightCardMain {
+    height: 705px;
+  } */
+}
+@media only screen and (max-width: 1300px) {
+  .imageContiner {
+    height: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .yesButton {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    width: 100% !important;
+  }
+  .noButton {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    width: 100% !important;
+  }
+}
+@media only screen and (max-width: 580px) {
+  .rightCardMain {
+    /* width: 587px; */
+    height: 800px;
+    text-align: start;
+  }
+  .cardFlex {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .cardBox {
+    margin-bottom: 10px;
+  }
+  .curveAbsolute {
+    position: absolute;
+    top: 90px;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+    /* left: 50%; */
+    z-index: 1;
+    width: 400px;
+  }
+}
+
+.imageBoxText {
+  text-align: start !important;
+  vertical-align: middle;
+  width: 75%;
+  margin-left: 25px;
+  margin-right: auto;
+  margin-top: 5px;
+}
+.imageBoxText h2 {
+  font-size: 13px;
+  font-family: Roboto;
+  font-style: normal;
+  /* font-weight: 400; */
+  /* font-size: 18px; */
+  color: #222222;
+  /* margin-top: 6px; */
+}
+
+.cardHeading {
+  margin-left: 10px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 28px;
+  color: #222222;
+}

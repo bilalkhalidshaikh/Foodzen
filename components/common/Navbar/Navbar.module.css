@@ -1,0 +1,241 @@
+.main {
+  background-color: white;
+}
+.flex1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.logo {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #000000;
+}
+.flex2 {
+  display: flex;
+  align-items: center;
+}
+.flex3 {
+  display: flex;
+  align-items: center;
+}
+.searchInput {
+  border-radius: 25px !important;
+  width: 400px !important;
+  height: 40px !important;
+}
+.seachButton {
+  font-family: Roboto !important;
+  font-style: normal !important;
+  font-weight: bold !important;
+  font-size: 16px !important;
+  line-height: 19px !important;
+  color: #222222 !important;
+}
+.icon1 {
+  font-size: 28px !important;
+  line-height: 0px;
+  font-weight: 200 !important;
+  color: #dddddd !important;
+  padding-right: 20px;
+  cursor: pointer;
+}
+.iconMain1 {
+  font-size: 28px !important;
+  line-height: 0px;
+  font-weight: 200 !important;
+  color: #dddddd !important;
+  padding-right: 20px;
+  cursor: pointer;
+}
+.icon2 {
+  font-size: 28px !important;
+  line-height: 0px;
+  font-weight: 200 !important;
+  color: #222222 !important;
+  cursor: pointer;
+}
+/* side drawer css */
+.searchInput2 {
+  border-radius: 25px !important;
+  width: 100% !important;
+  height: 40px !important;
+}
+.seachButton {
+  font-family: Roboto !important;
+  font-style: normal !important;
+  font-weight: bold !important;
+  font-size: 16px !important;
+  line-height: 19px !important;
+  color: #222222 !important;
+}
+.advanceSearch {
+  margin-top: 10px;
+  text-align: center;
+}
+
+
+.customModel {
+  position: absolute;
+  width: 600px;
+  height: 556px;
+  left: 50%;
+  top: 355px;
+  z-index: 99999;
+  transform: translate(-50%, -50%);
+  background: #ffffff;
+  padding-top: 10px;
+  overflow: auto;
+}
+.smContainer {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.cardHeading {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 0px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  vertical-align: middle;
+  color: #222222;
+}
+.cardHeading span {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.nodataButton {
+  /* width: 50%; */
+  height: 30px !important;
+  /* background: linear-gradient(
+    144.65deg,
+    #e8fff2 2.78%,
+    #ffece9 102.19%
+  ) !important; */
+  border: 1px solid #c2c9ee !important;
+  font-weight: 300 !important;
+  font-size: 15px !important;
+  border-radius: 25px !important;
+  padding: 5px;
+  margin-right:5px;
+  margin-bottom:16px;
+}
+
+.recipeSearchResult {
+  /* background: linear-gradient(
+    144.65deg,
+    #e8fff2 2.78%,
+    #ffece9 102.19%
+  ) !important; */
+  padding: 5px;
+  margin-right:5px;
+  margin-bottom:5px;
+  display: flex;
+  /* justify-content: center; */
+  align-content: center;
+  cursor:pointer;
+  
+}
+
+.recipeSearchResult:hover {
+  background: linear-gradient(
+    144.65deg,
+    #e8fff2 2.78%,
+    #ffece9 102.19%
+  ) !important;
+  cursor: pointer;
+}
+
+.recipeSearchResultImageBoxImg {
+  margin-right: 20px;
+}
+
+.recipeSearchResultText {
+  text-align:justify;
+  padding-top: 25px;
+  /* background: linear-gradient(
+    144.65deg,
+    #e8fff2 2.78%,
+    #ffece9 102.19%
+  ) !important; */
+}
+
+.cusineHeadFlex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  vertical-align: middle;
+  flex-wrap: wrap;
+}
+.cusineHeadFlex h2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 0px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  vertical-align: middle;
+  color: #222222;
+}
+.cusineHeadFlex h2 span {
+  margin-left: 5px;
+}
+.cardHeading span {
+  margin-right: 5px;
+}
+.cardHeading {
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 18px;
+  color: #222222;
+}
+@media only screen and (max-width: 880px) {
+  .seachButton {
+    display: none;
+  }
+  .iconMain1 {
+    display: none;
+  }
+  .searchInput {
+    border-radius: 25px !important;
+    margin-left: 25px;
+    width: 200px !important;
+    height: 40px !important;
+  }
+  .smContainer {
+    /* width: 90%; */
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .customModel {
+    position: absolute;
+    width: 100%;
+    height: 556px;
+    /* left: 50%; */
+    top: 355px;
+    z-index: 99999;
+    /* transform: translate(-50%, -50%); */
+    /* background: black; */
+    padding-top: 10px;
+    overflow: auto;
+  }
+}

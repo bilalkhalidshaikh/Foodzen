@@ -1,0 +1,116 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    width:250px;
+    min-height: 200px;
+    background: red;
+    border-radius: 5px;
+}
+.bottomDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    position: absolute;
+    width: 100%;
+    bottom: 10px;
+    padding-right: 20px;
+}
+.cardAntd{
+    flex: 0 0 30%;
+     padding: 10px;
+      border-radius: 10px;
+       height: 425px;
+}
+.cardAntd > div:nth-child(2){
+    padding: 0 !important;
+}
+.cardAntd p{
+    margin-bottom: 0;
+}
+
+.cardAntd p:nth-child(1){
+    font-size: 18px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.25px;
+}
+.cardAntd p:nth-child(2){
+    font-size: 14px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+}
+.cardContent{
+   padding-left:0px;
+   padding-right:0px;
+}
+
+@media(min-width:1480px){
+    .bottomDiv{
+  
+        position: absolute;
+        width: 100%;
+        bottom: 10px;
+        padding-right: 20px;
+    }
+    .cardAntd{
+ 
+           height: 450px;
+    }
+}
+
+@media(min-width:1850px){
+    .cardAntd p:nth-child(1){
+        font-size: 24px;
+        line-height: 36px;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.25px;
+    }
+    .cardAntd p:nth-child(2){
+        font-size: 18px;
+        line-height: 32px;
+        display: flex;
+        align-items: center;
+    }
+    .cardContent{
+        padding:10px 60px 10px 30px;
+        /* position: relative; */
+     }
+     .cardAntd{
+ 
+        height:500px;
+ }
+ .bottomDiv{
+  
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+  
+    margin-top: 0px !important;
+}
+}
+
+
+@media(max-width:768px){
+    .cardAntd p:nth-child(1){
+        font-size: 16px;
+        line-height: 28px;
+      
+    }
+    .cardAntd p:nth-child(2){
+        font-size: 14px;
+        line-height: 26px;
+       
+    }
+    .cardContent{
+        padding: 10px;
+    }
+    .bottomDiv{
+        position: relative;
+        margin-top: 30px;
+ 
+    }
+}
